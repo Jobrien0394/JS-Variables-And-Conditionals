@@ -1,6 +1,7 @@
 // Exercise Two - Calculating your future age.
 //
-// You want to know how old you will be in any given year.  Create a piece of code that will computer
+// You want to know how old you will be in any given year.  
+// Create a piece of code that will computer
 // your age given your birth year and a year in the future.
 //
 // Step One:
@@ -10,7 +11,8 @@
 // Step Two:
 // Calculate the two possible ages for that year based on their inputs.
 //
-// For example, if you were born in 1988, then in 2026 you'll be either 37 or 38, depending on what month it is in 2026.
+// For example, if you were born in 1988, then in 2026 you'll be either 37 or 38, 
+// depending on what month it is in 2026.
 //
 // Store the two possible ages in two different variables.
 //
@@ -22,3 +24,17 @@
 // Print your message to the browser using document.write()
 //
 // Write your code here 👇
+
+    // Step One:
+    let birthYear = prompt("What year were you born?");
+    let futureYear = prompt("Input any future year.");
+
+    // Step Two:
+    let futureAge = (futureYear - birthYear) - 1;
+    let futureAge2 = (futureYear - birthYear);
+
+    // Step Three:
+    let message = "I will be either " + futureAge + " or " + futureAge2 + " in " + futureYear
+
+    // Step Four:
+    document.write(message)
