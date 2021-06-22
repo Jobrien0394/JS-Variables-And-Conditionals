@@ -35,3 +35,10 @@
 // Then test out your program with different numbers and snack!
 //
 // Write your code here 👇
+    let favoriteSnack = prompt("What is you favorite snack?");
+    let numberOfItems  = prompt("How many bags of those snacks would you eat in one day?");
+    let currentAge = prompt("What is your age?");
+
+    var oneHundredYearsOld = (100 - currentAge) * 365 * (numberOfItems)
+    document.write("Congratulations, you have won a lifetime supply of " + favoriteSnack + " ! " + " You will receive " + numberOfItems  + " per day " +
+    "for a grand total of " + oneHundredYearsOld + favoriteSnack)

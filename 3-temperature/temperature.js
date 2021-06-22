@@ -41,3 +41,14 @@
 // Like 76.266666666667, that's perfectly fine!  You can leave those as is.
 //
 // Write your code here 👇
+
+    let unit = prompt("What would you like to convert to, Celsius or Fahrenheit? Enter c or f...");
+    let number = prompt("What number are you trying to convert? Enter a number only.")
+
+
+        if (unit === "C" || unit === "c") {
+            number / 5 * 9 + 32
+        } else {
+         number - 32 * 5 / 9
+        } 
+     document.write(result)
