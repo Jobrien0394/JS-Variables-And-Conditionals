@@ -46,9 +46,11 @@
     let number = prompt("What number are you trying to convert? Enter a number only.")
 
 
+        document.write("22°C converted to Fahrenheit is 71.6°F")
+        document.write("71.6°F converted to Celsius is 22°C")
         if (unit === "C" || unit === "c") {
-            number / 5 * 9 + 32
+          result =  (number / 5) * 9 + 32
         } else {
-         number - 32 * 5 / 9
+        result = (number - 32) * 5 / 9
         } 
      document.write(result)
